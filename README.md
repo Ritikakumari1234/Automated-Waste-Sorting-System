@@ -60,11 +60,11 @@ cd automated-waste-sorting
 ```
 
 ### Step 2: Train or Use the Pre-Trained Model
-- The trained model (`model.tflite`) is included in the repository.
-- If you want to train your own model, use **Google Teachable Machine** and export it as `.tflite`.
+- The trained model (`keras.h5`) is included in the repository.
+- If you want to train your own model, use **Google Teachable Machine** .
 
 ### Step 3: Upload Arduino Code
-1. Open the `arduino_code.ino` file in the Arduino IDE.
+1. Open the `code.txt` file in the Arduino IDE.
 2. Connect your Arduino Uno via USB.
 3. Upload the code to the board.
 
@@ -96,4 +96,4 @@ cd automated-waste-sorting
 
 
 
-Feel free to contribute to this project or report any issues by creating a new issue in the repository.
+Feel free to contribute to this project.
